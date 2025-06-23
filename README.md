@@ -80,7 +80,7 @@ python Train_cifar.py   --dataset cifar10   --num_class 10   --data_path ./data/
 
 ### 📊 Logging & Evaluation
 
-- All training logs are saved in `/logs/` and parsed using `wandb` or `.txt` readers.
+- All training logs are saved in `/logs/` and parsed using `wandb` or `custom_dashboard` readers.
 - Evaluation includes:
   - Multi-seed accuracy plots
   - Boxplots of variability
@@ -92,7 +92,7 @@ python Train_cifar.py   --dataset cifar10   --num_class 10   --data_path ./data/
 ### 📦 Software Package Contents (For Submission)
 
 - `/UNICON_cifar`: Main project folder
-- `/data/`: Contains datasets (if permitted)
+- `/data/`: Contains datasets 
 - `/checkpoints/`: includes txt files
 - `/scripts/`: SLURM job scripts for Otago Aoraki HPC
 - `/wandb/`: Local run summaries
